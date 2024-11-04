@@ -3,7 +3,7 @@ package University;
 public class Course {
     private String courseName;
     private String instructor;
-    int studentsEnrolled;
+   private int studentsEnrolled;
 
     public Course(String courseName, String instructor, int studentsEnrolled) {
         this.courseName = courseName;
